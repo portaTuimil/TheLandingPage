@@ -1,0 +1,73 @@
+.padre{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+.padre .hijo1{
+
+    background: #1f2937;
+    display: flex;
+    height: 300px;
+    align-items: center;
+    justify-content: space-around;
+    
+
+}
+
+.padre .hijo2{
+
+    background: #f9faf8;
+    
+    height: 300px;
+    
+
+}
+
+.padre .hijo3{
+
+    background: white;
+    height: 300px;
+    
+
+}
+
+.padre .hijo4{
+
+    background: #e5e7eb;
+    display: flex;
+    height: 300px;
+    
+
+}
+
+.hijo3 p{
+    text-align: center;
+    font: bold 36px normal;
+
+}
+
+#texto{
+    height: 200px;
+    width: 400px;
+
+}
+
+#texto p{
+    font: bold 36px normal;
+    color: #f9faf8
+    
+}
+
+#imagen{
+    height: 200px;
+    width: 400px;
+
+}
+
+#imagen img{
+    height: 200px;
+    width:400px;
+
+}
