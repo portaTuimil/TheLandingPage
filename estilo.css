@@ -17,8 +17,7 @@ body{
 
 #header-logo{
     font-size: 24px;
-    color: #f9faf8
-
+    color: #f9faf8;
 }
 
 .header-link{
@@ -29,13 +28,18 @@ body{
 ul{
     display: flex;
     flex-direction: row;
+    margin: 10px
 }
 
-.navbar-right,.navbar-left{
+.navbar{
+    display:flex;
+}
+
+.navbar-left,.navbar-right{
     display: flex;
-    width: 50%;
+    width: 50%; 
     justify-content: center;
-    align-items: center;
+    align-items:center;
 }
 
 h1 {
@@ -46,10 +50,40 @@ h1 {
 .content{
     display:flex;
     flex-direction:row;
+    margin:50px;
 }
-.content-left,.content-right{
+.content-right{
     display: flex;
     justify-content: center;
     align-items:center;
     flex-direction:column;
+    width: 50%;
+    margin-right: 50px
+}
+
+.content-left{
+    display:flex;
+    flex-direction:column;
+    width: 50%;
+    margin-left:200px;
+    margin-top: 100px;
+    justify-content: center;
+    margin-bottom: 50px
+}
+
+img{
+    margin:50px;
+    width: 600px;
+}
+
+button{
+    width:auto;
+}
+
+.sign-up-first-section{
+    background-color: #3883f6;
+    color:white;
+    width: 200px;
+    border-radius: 10px;
+    border: 1px #3883f6;
 }
