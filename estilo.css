@@ -135,7 +135,7 @@ h2{
     justify-content:center;
 }
 
-h3{
+.inspirational-cuote{
     font-size:36px;
     font-style: italic;
     font-weight:lighter;
@@ -149,8 +149,8 @@ h3{
 
 .p-third-div{
     display:flex;
-    justify-content:flex-end;
-    margin-right:300px;
+    justify-content:flex-start;
+    margin-left:70%;
 }
 
 .fourth-section{
@@ -163,11 +163,12 @@ h3{
 .blue-container{
     background-color: #3882f6;
     width:75%;
-    height:40%;
     display:flex;
     flex-direction:row;
     border-radius: 10px;
     padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .left{
@@ -241,5 +242,27 @@ h4{
 @media(max-width: 620px){
     img{
         width: 80%;
+    }
+
+    .blue-container{
+        flex-direction: column;
+    }
+
+    .p-fourth{
+        text-align: center;
+    }
+
+    .title-p-fourth{
+        text-align: center;
+    }
+}
+
+@media(max-width: 400px){
+    .inspirational-cuote{
+        font-size: 1.4rem;
+    }
+
+    .p-third{
+        font-size: 1rem;
     }
 }
