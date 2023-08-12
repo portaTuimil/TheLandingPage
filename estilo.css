@@ -57,7 +57,7 @@ h1 {
 .content{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    height: 600px;
+
 }
 
 .content-right{
@@ -104,6 +104,7 @@ h2{
     justify-content: space-around;
     max-width: 100%;
     margin:100px;
+    flex-wrap: wrap;
 }
 
 .box-blue{
@@ -111,6 +112,7 @@ h2{
     width:200px;
     height:200px;
     border-radius:15px;
+    margin: 15px;
 }
 
 .second-section{
@@ -216,8 +218,28 @@ h4{
 
 
 @media(max-width: 1200px){
-    .content{
-        grid-template-rows: repeat(2, 1fr); 
+   .content{
+        display: flex;
+        flex-direction: column;
+   }
+
+   .content-right{
+        justify-content: center;
+   }
+
+   .content-left{
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 20px;
+   }
+
+   .sign-up-first-section{
+        margin: auto;
+   }
+}
+
+@media(max-width: 620px){
+    img{
+        width: 80%;
     }
-    
 }
