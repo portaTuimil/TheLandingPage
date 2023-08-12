@@ -20,7 +20,7 @@ body{
 }
 
 .header-link{
-    font-size:18px;
+    font-size:22px;
     color: #e5e7eb
 }
 
@@ -44,15 +44,15 @@ ul{
 
 .navbar-right{
     grid-column: 0;
-    display: flex;
-    align-items: center;
-}
-
-h1 {
-    font-size:48px;
-    font-weight:bold;
-    color: #f9faf8;
-}
+    display: flex; 
+    align-items: center; 
+} 
+ 
+h1 { 
+    font-size:48px; 
+    font-weight:bold; 
+    color: #f9faf8; 
+} 
 
 .content{
     display: grid;
@@ -129,7 +129,9 @@ h2{
 
 .third-section{
     background-color:#e5e7eb;
-    height:500px;
+    padding: 40px;
+    padding-top: 60px;
+    padding-bottom: 60px;
     display:flex;
     flex-direction:column;
     justify-content:center;
@@ -230,6 +232,7 @@ h4{
 
    .content-left{
         text-align: center;
+        margin: 20px;
         margin-top: 50px;
         margin-bottom: 20px;
    }
@@ -246,6 +249,10 @@ h4{
 
     .blue-container{
         flex-direction: column;
+    }
+
+    .btn-last-div{
+        margin-top: 20px;
     }
 
     .p-fourth{
