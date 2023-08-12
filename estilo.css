@@ -217,7 +217,7 @@ h4{
 
 @media(max-width: 1200px){
     .content{
-        grid-template-rows: repeat(2, 1fr); }
+        grid-template-rows: repeat(2, 1fr); 
     }
     
 }
