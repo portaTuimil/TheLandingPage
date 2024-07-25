@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 *{
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
@@ -89,6 +90,7 @@ button{
     border: 1px #3883f6;
     font-size: 1rem;
     padding: 5px;
+    margin-top: 20px;
 }
 
 h2{
@@ -103,7 +105,6 @@ h2{
     flex-direction:row;
     justify-content: space-around;
     max-width: 100%;
-    margin:100px;
     flex-wrap: wrap;
 }
 
@@ -239,6 +240,7 @@ h4{
 
    .sign-up-first-section{
         margin: auto;
+        margin-top: 20px;
    }
 }
 
